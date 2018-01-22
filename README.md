@@ -4,3 +4,7 @@ Python scripts to detect languages in a text and split the text into its compone
 [line_splitter.py](https://github.com/ian-nai/Language-Splitter/blob/master/line_splitter.py) detects the language of each new line in a .txt file, and [sentence_splitter.py](https://github.com/ian-nai/Language-Splitter/blob/master/sentence_splitter.py) detects the language of each sentence. After completing language detection the scripts will save the lines or sentences in each language to separate text files (e.g., "english.txt").
 
 The following languages are currently supported: Danish, Dutch, English, Finnish, French, German, Hungarian, Italian, Norwegian, Portuguese, Russian, Spanish, Swedish, and Turkish.
+
+### Dependencies
+NLTK: http://www.nltk.org/ - sudo pip install -U nltk
+
