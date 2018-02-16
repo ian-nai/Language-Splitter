@@ -59,16 +59,59 @@ def lang_detection():
             if language == "danish": 
                 danish_sent.append(sentence)
                 print language
-            
+                
+            elif language == "dutch":
+                dutch_sent.append(sentence)
+                print language
+                
             elif language == "english": 
                 english_sent.append(sentence)
                 print language
-         
+                
+            elif language == "finnish":
+                finnish_sent.append(sentence)
+                print language
+                
             elif language == "french":
                 french_sent.append(sentence)
                 print language
-        
-         
+                
+            elif language == "german":
+                german_sent.append(sentence)
+                print language  
+                
+            elif language == "hungarian":
+                hungarian_sent.append(sentence)
+                print language 
+                
+            elif language == "italian":
+                italian_sent.append(sentence)
+                print language 
+                
+            elif language == "norwegian":
+                norwegian_sent.append(sentence)
+                print language 
+                
+            elif language == "portuguese":
+                portuguese_sent.append(sentence)
+                print language  
+                   
+            elif language == "russian":
+                russian_sent.append(sentence)
+                print language 
+            
+            elif language == "spanish":
+                spanish_sent.append(sentence)
+                print language 
+            
+            elif language == "swedish":
+                swedish_sent.append(sentence)
+                print language 
+            
+            elif language == "turkish":
+                turkish_sent.append(sentence)
+                print language 
+                
         if danish_sent:
             dan_file = open("danish.txt", "w")
             for item in danish_sent:
